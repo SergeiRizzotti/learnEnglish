@@ -1,0 +1,38 @@
+.cover {
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    width: 100%;
+    // height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #000;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background-image: linear-gradient(to top, #2AFADF 10%, #4C83FF 100%);
+    }
+
+    .wrap {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

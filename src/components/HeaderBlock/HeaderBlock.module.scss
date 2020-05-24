@@ -1,0 +1,63 @@
+.cover {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #000;
+    background-image: url(./img/background.jpg);
+
+    &:after{
+        content: '';
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        background-image: linear-gradient(to top, rgba(26,40,120,0.70), rgba(10,143,196,0.70));
+    }
+
+    .wrap {
+        position: relative;
+        z-index: 1;
+    }
+
+    .arrows {
+        position: absolute;
+        right: 50%;
+        bottom: 30px;
+        z-index: 2;
+        
+        animation-name: arrowsDown;
+        animation-duration: 3s;
+        animation-timing-function: cubic-bezier(.17, .67, 0, 1.02);
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+    }
+
+    @keyframes arrowsDown {
+        from {
+            opacity: 0;
+            -webkit-transform: translate3d(50%, -125%, 0);
+            transform: translate3d(50%, -125%, 0);
+        }
+
+        to {
+            opacity: 1;
+            -webkit-transform: translate3d(50%, 0, 0);
+            transform: translate3d(50%, 0, 0);           
+        }
+    }
+}

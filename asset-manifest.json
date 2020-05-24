@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/learnEnglish/static/css/main.195a0444.chunk.css",
+    "main.js": "/learnEnglish/static/js/main.29407bb4.chunk.js",
+    "main.js.map": "/learnEnglish/static/js/main.29407bb4.chunk.js.map",
+    "runtime-main.js": "/learnEnglish/static/js/runtime-main.2d8e14a4.js",
+    "runtime-main.js.map": "/learnEnglish/static/js/runtime-main.2d8e14a4.js.map",
+    "static/js/2.88b96ba4.chunk.js": "/learnEnglish/static/js/2.88b96ba4.chunk.js",
+    "static/js/2.88b96ba4.chunk.js.map": "/learnEnglish/static/js/2.88b96ba4.chunk.js.map",
+    "index.html": "/learnEnglish/index.html",
+    "precache-manifest.0394b309b14d70edd62cf03edc1a62a9.js": "/learnEnglish/precache-manifest.0394b309b14d70edd62cf03edc1a62a9.js",
+    "service-worker.js": "/learnEnglish/service-worker.js",
+    "static/css/main.195a0444.chunk.css.map": "/learnEnglish/static/css/main.195a0444.chunk.css.map",
+    "static/js/2.88b96ba4.chunk.js.LICENSE.txt": "/learnEnglish/static/js/2.88b96ba4.chunk.js.LICENSE.txt",
+    "static/media/arrows-down.svg": "/learnEnglish/static/media/arrows-down.afc3ac95.svg",
+    "static/media/HeaderBlock.module.scss": "/learnEnglish/static/media/background.898d65d0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d8e14a4.js",
+    "static/js/2.88b96ba4.chunk.js",
+    "static/css/main.195a0444.chunk.css",
+    "static/js/main.29407bb4.chunk.js"
+  ]
+}
